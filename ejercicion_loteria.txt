@@ -1,0 +1,11 @@
+Una agencia de loteria recibe apuestas durante todo el dia. 
+Las apuestas están conformadas por por un número entre 0 y 99 y un monto, que es la plata que las personas apuestan. 
+Al finalizar el dia la agencia recibe una lista de 10 números que son los números que salieron sorteados. Una apuesta es ganadora si el numero apostado es el igual al primer numero de la lista.
+Se nos pide realizar un programa que nos permita registrar apuestas y una vez recibida la lista de números ganadores poder: 
+	Identificar cuantas apuestas ganadoras hay.
+	Cuanto es el monto a pagar. Para calcular el monto a pagar, se debe multiplicar el monto apostado por 70. 
+	
+Nuestra aplicación anterior fue un éxito y la agencia de loteria nos propone agregar un nuevo tipo de puesta. La idea es que una apuesta pueda ser a la cabeza, manteniendo el comportamiento anterior o a los premios. 
+ALas apuestas a los premios son apuestas que seran ganadora si y solo si el numero apostado esta dentro la lista ganadora exceṕto el primero numero. En ese caso la apuesta pagara un equivalente al monto a postado multiplicado por 30.
+Modificar el codigo anterior para poder calcular las apuestas ganadoras y el monto a pagar.
+Asumir que todos los dias las apuestas desaparence y que se peuden cargar apuestas nuevas
